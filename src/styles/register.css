@@ -1,0 +1,90 @@
+.container_Register {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.RegisterPanel {
+  display: flex;
+  flex-direction: column;
+  background: #07090f;
+  color: #fdfffc;
+  width: 30%;
+  height: 70%;
+  font-weight: bold;
+  gap: 4px;
+  border-radius: 20px;
+}
+
+.Register_title {
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 50px;
+}
+
+.Register_input {
+  height: 6%;
+  width: 60%;
+  margin: 0 auto;
+  font-size: 16px;
+  border-style: none;
+  border-bottom: 1px solid white;
+  padding-left: 10px;
+  background: transparent;
+}
+
+.Register_label {
+  margin-left: 20%;
+  font-size: 25px;
+}
+
+.Register_button {
+  height: 7%;
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid;
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  border-radius: 300px;
+  font-weight: bold;
+  border-style: solid;
+  margin-top: 2%;
+}
+
+.Register_Unaccount {
+  font-size: 15px;
+  margin-top: 5%;
+  margin-left: 4%;
+  background-color: transparent;
+  border-style: none;
+  color: rgb(1, 153, 255);
+}
+
+.Register-error-message-usuario {
+  color: red;
+  margin-left: 20%;
+  font-weight: 400;
+}
+
+.Register_label:hover {
+  cursor: pointer;
+}
+
+.Register_button:hover {
+  cursor: pointer;
+  background: rgb(255, 255, 255);
+  color: #07090f;
+}
+
+.Register_input:focus {
+  background-color: white;
+}
+
+.Register_Unaccount:hover {
+  cursor: pointer;
+  text-decoration-line: underline;
+}

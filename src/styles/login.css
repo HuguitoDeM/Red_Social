@@ -1,0 +1,122 @@
+.container_login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.panel_login {
+  display: flex;
+  flex-direction: column;
+  background: #07090f;
+  width: 30%;
+  height: 70%;
+  border-radius: 20px;
+  gap: 5px;
+  color: #fdfffc;
+}
+
+.animated {
+  animation: slideIn 2s forwards, moveAround 2s 2s forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(250%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes moveAround {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-80px);
+  }
+  40% {
+    transform: translateX(80px);
+  }
+  60% {
+    transform: translateY(-80px);
+  }
+  80% {
+    transform: translateY(80px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.title_login {
+  margin: 0 auto;
+  font-size: 50px;
+  margin-bottom: 20%;
+  margin-top: 5%;
+}
+
+.input_login {
+  width: 60%;
+  height: 8%;
+  margin: 0 auto;
+  font-size: 15px;
+  background: transparent;
+  border-style: none;
+  border-bottom: 1px solid white;
+  padding-left: 10px;
+}
+
+.label_login {
+  margin-left: 20%;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.button_login {
+  width: 60%;
+  height: 8%;
+  background: transparent;
+  color: white;
+  border: 1px solid;
+  font-size: 20px;
+  border-radius: 300px;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.login_Unaccount {
+  font-size: 15px;
+  margin-top: 5%;
+  margin-left: 2%;
+  background-color: transparent;
+  border-style: none;
+  color: rgb(1, 153, 255);
+}
+
+.login-error-message-usuario {
+  color: red;
+  margin-left: 20%;
+  font-weight: 400;
+}
+.label_login:hover {
+  cursor: pointer;
+}
+
+.button_login:hover {
+  cursor: pointer;
+  background: rgb(255, 255, 255);
+  color: #07090f;
+}
+
+.input_login:focus {
+  background-color: white;
+}
+
+.login_Unaccount:hover {
+  cursor: pointer;
+  text-decoration-line: underline;
+}
